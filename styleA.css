@@ -1,0 +1,8 @@
+body{
+    background: url('Building 2 of Med.jpg');
+    background-repeat:no-repeat;
+    background-position:bottom ;
+    background-size:cover;
+    scrollbar-darkshadow-color: lightgrey;
+    
+}

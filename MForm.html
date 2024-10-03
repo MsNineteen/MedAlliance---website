@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>MedJustice Alliance/ Form Submission</title>
+    <link rel="stylesheet" href="MFormStyle.css">
+</head>
+
+<body style="color:white">
+
+ <div class="container">
+
+
+    <form action="infoMedJusticeAlliance@gmail.com / submit" method="POST" enctype="multipart/form-data" name="EmailForm">
+
+        <h2 <i class="fa fa-align-center" aria-hidden="true"></i><b><i><u>PERSONAL DETAILS</u></i></b></h2>
+
+        <br>
+
+        <label for="title"><i><b>TITLE</b></i></label>
+        <br>  
+
+        <label for="MR"><i>MR</i> </label>
+         <input type="radio" id="MR" value="MR" name="title">
+
+         <label for="MS"><i>MS</i> </label>
+         <input type="radio" id="MS" value="MS" name="title">
+
+            <label for="MRS"><i>MRS</i> </label>
+         <input type="radio" id="MRS" value="MRS" name="title">
+
+         <br>
+         <br>
+
+            <label for="name"><I><b><h3>NAME</h3></b></I> </label>
+            <input type="text" id="name" placeholder="NomThandazo" required >
+
+         
+            <label for="SURNAME"><I><b><h3>SURNAME</h3></b></I> </label>
+            <input type="text" id="SURNAME" placeholder="Mokwena" required > 
+
+            <label for="BirthDate"><i><b><h3>DATE OF BIRTH</h3></b></i></label>
+            <input type="date" id="BirthDate" required>
+
+             <label for="ID Number"><i><b><h3>ID NUMBER</h3></b></i></label>
+            <input type="tel" id="ID Number" pattern="[0-9]{13}" required>
+
+            <label for="Password"><i><b><h3>PASSWORD</h3></b></i></label>
+            <input type="password" id="Password" minlength="6" name="password" required>
+
+            <label for="Email"><i><b><h3>EMAIL ADDRESS</h3></b></i></label>
+            <input type="text" id="Email" placeholder= "ThandoLebepe78@gmail.com" required>
+
+            <label for="Phone"><h3><i>PHONE NUMBER</i></h3></label>
+            <input type="tel" id="Phone" pattern="[0-9]{3} [0-9]{3} [0-9{4}]" required>
+
+            <br>
+
+         <h2 <i class="fa fa-align-center" aria-hidden="true"></i><b><i><u>SUBMIT DOCUMENTS</u></i></b></h2>
+
+         <br>
+
+            <label for="ID"><i><b>CERTIFIED ID COPY</b></i></label>
+            <input type="file" id="ID" accept="image/png/pdf"> 
+         <br>
+         <br>
+
+            <label for="Medical Records"><I><B>MEDICAL RECORDS</B></I></label>
+            <input type="file" id="Medical Records" accept="pdf" >
+         <br>
+         <br>
+
+         <label for="MORE INFORMATION"><i><b>MORE INFORMATION</b></i></label>
+            <textarea id="MORE INFORMATION" rows="4" cols="25"></textarea>
+
+            <br>
+            <br>
+
+            <button type="submit" value="Submit">Send</button>
+
+    </form>
+
+    
+
+ </div>
+
+ <style>
+    .container
+     {
+        width: 50%; /* adjust to desired width */
+        margin: 0 auto; /* center the container */
+     }
+ </style>
+
+</body>
+</html>
